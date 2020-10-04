@@ -1,0 +1,60 @@
+<!-- basic meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+{{ hugo.Generator }}
+{{ partial "favicon.html" . }}
+
+<!-- seo metadata title -->
+{{- if .IsHome -}}
+<title>{{ .Site.Title }}</title>
+{{- else -}}
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+{{- end -}}
+
+<!-- seo metadata author -->
+{{- if .Params.author -}}
+<meta name="author" content="{{ .Params.author }}" />
+{{- else -}}
+<meta name="author" content="{{ .Site.Params.author }}" />
+{{- end -}}
+
+<!-- $ description -->
+{{- if .Params.description -}}
+<meta name="description" content="{{ .Params.description }}" />
+{{- end -}}
+{{- if .Params.tags -}}
+<meta name="keywords" content="{{ delimit .Params.tags ", " }}" />
+{{- else if .Params.keywords -}}
+<meta name="keywords" content="{{ delimit .Params.keywords ", " }}" />
+{{- end -}}
+
+<!-- $ og -->
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+
+<!-- stylesheets -->
+{{- if eq (getenv "NODE_ENV") "production" -}}
+{{ $options := (dict "targetPath" "assets/amzrk2.min.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
+{{ $css := resources.Get "scss/index.scss" | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+{{- else -}}
+{{ $options := (dict "targetPath" "assets/amzrk2.css" "outputStyle" "expanded" "enableSourceMap" true "includePaths" (slice "node_modules")) }}
+{{ $css := resources.Get "scss/index.scss" | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+{{- end -}}
+
+{{- if eq (getenv "NODE_ENV") "production" -}}
+<!-- cfga -->
+<script>
+  window.ga_tid = 'UA-146011233-8';
+  window.ga_api = 'https://worker.amzrk2.cc/cfga/main/hls.min.js';
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/cfga@1.0.3/cfga.min.js"></script>
+<!-- adsense -->
+<script async data-ad-client="ca-pub-1082980127729990"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{{- end -}}

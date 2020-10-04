@@ -1,0 +1,67 @@
+# base info
+baseURL: "https://example.org/"
+title: "Aofuji"
+
+# features
+hasCJKLanguage: true
+enableEmoji: true
+enableRobotsTXT: true
+taxonomies:
+  tag: "tags"
+paginate: 10
+
+# language
+languageCode: "zh-cn" # rss
+defaultContentLanguage: "zh-Hans" # html
+
+# params
+params:
+  # sidebar info
+  author: "DSRKafuU"
+  para: "A clean Hugo template"
+  avatar: "/images/_kitashirakawa.webp"
+  image: "/images/_header.webp"
+  mainSections:
+    - "post"
+    - "code"
+
+# menu
+menu:
+  main:
+    - name: "Post"
+      url: "/post/"
+      weight: 1
+    - name: "Code"
+      url: "/code/"
+      weight: 2
+    - name: "Tags"
+      url: "/tags/"
+      weight: 3
+    - name: "Friends"
+      url: "/friends/"
+      weight: 4
+  links:
+    - name: "#icon-github"
+      url: "https://github.com/amzrk2"
+      weight: 1
+    - name: "#icon-twitter"
+      url: "https://twitter.com/amzrk2"
+      weight: 2
+    - name: "#icon-tv-retro"
+      url: "https://space.bilibili.com/19767474"
+      weight: 3
+    - name: "#icon-envelope-open-text"
+      url: "mailto:mail@fake.google" # fake mail here
+      weight: 4
+
+# markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable user-embed HTML snippets
+  highlight:
+    codeFences: false # disable code highlighter
+    tabWidth: 2
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3

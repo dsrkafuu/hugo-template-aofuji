@@ -1,0 +1,30 @@
+{{ define "body" }}
+
+<body data-theme="auto" data-section="friends">
+  {{ partial "scripts-theme.html" . }}
+  <header>
+    {{ partial "navbar.html" . }}
+  </header>
+  <main>
+    <div class="container single-container">
+      <div class="columns single-columns">
+        <div class="column single-content is-three-quarters">
+          <div class="card" style="padding: 1.5rem;">
+            This is an example single page.
+          </div>
+          <div class="card" style="padding: 1.5rem;">
+            You can add more single page like this.
+          </div>
+        </div>
+        <div class="column single-sidebar is-one-quarter">
+          {{ partial "card-bundle-list.html" . }}
+        </div>
+      </div>
+    </div>
+    {{ partial "notification.html" . }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "scripts-common.html" . }}
+</body>
+
+{{ end }}

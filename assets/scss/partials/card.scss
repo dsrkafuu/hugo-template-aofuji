@@ -1,0 +1,143 @@
+.card {
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow);
+  border-radius: $amzrk2-radius;
+  padding: $amzrk2-space-base;
+}
+
+.sticky {
+  position: sticky;
+  top: $amzrk2-space-base;
+}
+
+.card-info {
+  text-align: center;
+
+  .avatar {
+    margin: 0 auto 1rem auto;
+    width: 5rem;
+    user-select: none;
+    border-radius: $amzrk2-radius;
+    overflow: hidden;
+  }
+
+  .info {
+    & > span {
+      display: block;
+    }
+    text-align: center;
+    font-size: $amzrk2-font-size-sm;
+  }
+  .info-name {
+    font-size: $amzrk2-font-size-lg;
+  }
+  .info-para {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .counter {
+    display: flex;
+  }
+  .counter-wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .counter-data {
+    font-size: $amzrk2-font-size-md;
+    color: var(--color-primary);
+  }
+  .counter-name {
+    font-size: $amzrk2-font-size-sm;
+  }
+}
+
+.card-links {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+
+  & > a {
+    display: block;
+    color: inherit;
+    flex: 0 1 auto;
+    height: $amzrk2-navbar-height-sm;
+    text-align: center;
+    line-height: $amzrk2-navbar-height-sm;
+    padding: 0 $amzrk2-space-sm;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-primary);
+      background-color: var(--color-hover);
+    }
+
+    // prevent overflow on $tablet - $desktop
+    @media screen and (max-width: $desktop) {
+      padding: 0 0.725rem;
+    }
+  }
+}
+
+.card.toc {
+  padding: 1.125rem;
+}
+
+#TableOfContents {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: $amzrk2-toc-height;
+  scrollbar-width: thin;
+
+  a {
+    white-space: nowrap;
+    color: var(--color-font);
+  }
+
+  li a {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    color: var(--color-font);
+    padding: 0 0.375rem;
+    border-radius: $amzrk2-radius;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      color: var(--color-primary);
+      background-color: var(--color-hover);
+    }
+  }
+
+  & > ul {
+    font-size: $amzrk2-font-size-sm;
+
+    & > li {
+      & > ul {
+        margin-left: 0.375rem;
+        padding: 0 0.25rem;
+        border-left: $amzrk2-divider;
+        font-size: $amzrk2-font-size-sm * 0.9;
+
+        a {
+          height: 1.875rem;
+          line-height: 1.875rem;
+        }
+      }
+    }
+  }
+}
+
+.card-firefox {
+  @media screen and (max-width: $tablet) {
+    display: none;
+  }
+  padding: 0;
+
+  .firefox-image {
+    border-radius: $amzrk2-radius;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,39 @@
+.search-ctrl {
+  padding: $amzrk2-space-base !important;
+}
+
+.search-form {
+  display: flex;
+
+  input {
+    flex: 1 1 auto;
+  }
+
+  button {
+    flex: 0 0 auto;
+    outline: none;
+    border: none;
+    border-radius: $amzrk2-radius;
+    cursor: pointer;
+    color: var(--color-font);
+    background-color: var(--color-wrapper);
+    margin-left: $amzrk2-space-sm;
+    padding: 0 $amzrk2-space-sm;
+
+    &:hover {
+      color: var(--color-primary);
+      background-color: var(--color-hover);
+    }
+  }
+}
+
+.search-data {
+  display: block;
+  text-align: center;
+  font-size: $amzrk2-font-size-sm;
+  margin-top: $amzrk2-space-sm;
+}
+
+.search-result .list-summary.markdown.content {
+  margin-bottom: 0;
+}
