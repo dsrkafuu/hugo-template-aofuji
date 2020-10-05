@@ -17,15 +17,15 @@
         {{ end }}
         {{ $totalWords := $.Scratch.Get "TOTAL_WORD_COUNT" }}
         <span class="counter-data">{{ math.Round (div $totalWords 1000.0) }}</span>
-        <span class="counter-name">千字</span>
+        <span class="counter-name">kWords</span>
       </div>
       <div class="counter-wrapper">
         <span class="counter-data">{{ len .Site.Taxonomies.tags }}</span>
-        <span class="counter-name">标签</span>
+        <span class="counter-name">Tags</span>
       </div>
       <div class="counter-wrapper">
         <span class="counter-data">{{ len .Site.RegularPages }}</span>
-        <span class="counter-name">文章</span>
+        <span class="counter-name">Posts</span>
       </div>
     </div>
   </div>

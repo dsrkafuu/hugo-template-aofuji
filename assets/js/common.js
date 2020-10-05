@@ -13,6 +13,3 @@ document.getElementById('ctrl-adjust').addEventListener('click', () => {
 
 /* toc control */
 import './components/toc';
-
-/* feature detection */
-import './components/feature';

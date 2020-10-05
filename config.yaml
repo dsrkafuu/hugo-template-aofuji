@@ -18,7 +18,7 @@ defaultContentLanguage: "zh-Hans" # html
 params:
   # sidebar info
   author: "DSRKafuU"
-  para: "A clean Hugo template"
+  para: "A clean Hugo theme"
   avatar: "/images/_kitashirakawa.webp"
   image: "/images/_header.webp"
   mainSections:
