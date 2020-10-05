@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on Aofuji</title>
+    <link>https://amzrk2.github.io/</link>
+    <description>Recent content in Index on Aofuji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Oct 2020 16:44:02 +0800</lastBuildDate><atom:link href="https://amzrk2.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Modifying Someone Else&#39;s Pull Request and Committing</title>
+      <link>https://amzrk2.github.io/post/2020/github-add-commit-to-pull-request/</link>
+      <pubDate>Thu, 01 Oct 2020 16:44:02 +0800</pubDate>
+      
+      <guid>https://amzrk2.github.io/post/2020/github-add-commit-to-pull-request/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article is machine translated by DeepL from &lt;a href=&#34;https://amzrk2.cc/post/2019/github-add-commit-to-pull-request/&#34; target=&#34;_blank&#34;&gt;amzrk2.cc&lt;/a&gt; and has no real meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sometimes we need to make changes to the pull request submitted to our project by community developers, such as additions to configuration files and resource files. In this case, we can just reply to the request with the changes, but there is a simpler option: we can submit a commit directly to the pull request.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Example Post of Code Section</title>
+      <link>https://amzrk2.github.io/code/2020/code-2020-example-post/</link>
+      <pubDate>Sun, 02 Aug 2020 16:19:39 +0800</pubDate>
+      
+      <guid>https://amzrk2.github.io/code/2020/code-2020-example-post/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article is machine translated by DeepL from &lt;a href=&#34;https://amzrk2.cc/code/2020/js-extends-note/&#34; target=&#34;_blank&#34;&gt;amzrk2.cc&lt;/a&gt; and has no real meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The following figure shows a simple classification of inheritance methods, focusing mainly on combined inheritance, parasitic combined inheritance and ES6 Class inheritance.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Example Copy 1 of Code Section</title>
+      <link>https://amzrk2.github.io/code/2020/code-2020-example-copy-1/</link>
+      <pubDate>Thu, 25 Jun 2020 16:19:39 +0800</pubDate>
+      
+      <guid>https://amzrk2.github.io/code/2020/code-2020-example-copy-1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article is machine translated by DeepL from &lt;a href=&#34;https://amzrk2.cc/code/2020/js-extends-note/&#34; target=&#34;_blank&#34;&gt;amzrk2.cc&lt;/a&gt; and has no real meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The following figure shows a simple classification of inheritance methods, focusing mainly on combined inheritance, parasitic combined inheritance and ES6 Class inheritance.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Example Copy 2 of Code Section</title>
+      <link>https://amzrk2.github.io/code/2020/code-2020-example-copy-2/</link>
+      <pubDate>Sun, 22 Mar 2020 16:19:39 +0800</pubDate>
+      
+      <guid>https://amzrk2.github.io/code/2020/code-2020-example-copy-2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article is machine translated by DeepL from &lt;a href=&#34;https://amzrk2.cc/code/2020/js-extends-note/&#34; target=&#34;_blank&#34;&gt;amzrk2.cc&lt;/a&gt; and has no real meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The following figure shows a simple classification of inheritance methods, focusing mainly on combined inheritance, parasitic combined inheritance and ES6 Class inheritance.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How does a GitHub Forked Repository Sync with the Original Repository</title>
+      <link>https://amzrk2.github.io/post/2019/github-sync-forked-repo/</link>
+      <pubDate>Thu, 12 Dec 2019 19:07:41 +0800</pubDate>
+      
+      <guid>https://amzrk2.github.io/post/2019/github-sync-forked-repo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This article is machine translated by DeepL from &lt;a href=&#34;https://amzrk2.cc/post/2019/github-sync-forked-repo/&#34; target=&#34;_blank&#34;&gt;amzrk2.cc&lt;/a&gt; and has no real meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s been a long time since I&amp;rsquo;ve contributed code to a community project, and today I had a whim to contribute something more. It&amp;rsquo;s definitely not possible to change it directly, and deleting the fork is not a good choice either, so how to synchronize your own fork project with the original repository?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Friends</title>
+      <link>https://amzrk2.github.io/friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amzrk2.github.io/friends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://amzrk2.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amzrk2.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

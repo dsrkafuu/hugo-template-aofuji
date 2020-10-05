@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://amzrk2.github.io/tags/git/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/tags/github/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/post/2020/github-add-commit-to-pull-request/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/post/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/tags/</loc>
+    <lastmod>2020-10-01T16:44:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/code/</loc>
+    <lastmod>2020-08-02T16:19:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/code/2020/code-2020-example-post/</loc>
+    <lastmod>2020-08-02T16:19:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/tags/javascript/</loc>
+    <lastmod>2020-08-02T16:19:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/code/2020/code-2020-example-copy-1/</loc>
+    <lastmod>2020-06-25T16:19:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/code/2020/code-2020-example-copy-2/</loc>
+    <lastmod>2020-03-22T16:19:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/post/2019/github-sync-forked-repo/</loc>
+    <lastmod>2019-12-12T19:07:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/friends/</loc>
+  </url>
+  
+  <url>
+    <loc>https://amzrk2.github.io/search/</loc>
+  </url>
+  
+</urlset>
