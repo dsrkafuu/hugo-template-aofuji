@@ -11,8 +11,8 @@ taxonomies:
 paginate: 10
 
 # language
-languageCode: "zh-cn" # rss
-defaultContentLanguage: "zh-Hans" # html
+languageCode: "en" # rss
+defaultContentLanguage: "en" # html
 
 # params
 params:
