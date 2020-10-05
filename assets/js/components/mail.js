@@ -2,7 +2,7 @@ import { logInfo, logError } from '../plugins/logger';
 import { EMAIL_ADDRESS } from '../plugins/constants';
 
 /**
- * 设置邮箱地址 (机器人验证待添加)
+ * email loader
  */
 (async function loadEmail() {
   const emailLoader = new Promise((resolve, reject) => {

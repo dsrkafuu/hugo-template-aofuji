@@ -1,4 +1,4 @@
-/*! amzrk2-ng | DSRKafuU <amzrk2.cc> | Copyright (c) Apache-2.0 License */
+/*! hugo-template-aofuji | DSRKafuU <amzrk2.cc> | Copyright (c) Apache-2.0 License */
 
 /* lazyloader */
 import 'lazysizes';

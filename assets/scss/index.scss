@@ -14,9 +14,6 @@
 @import './framework/bulma';
 @import './framework/prism';
 
-// disqusjs
-@import './framework/gitalk';
-
 // reset
 @import './reset';
 
@@ -33,5 +30,4 @@
 @import './partials/meta';
 @import './partials/pagination';
 @import './partials/search';
-@import './partials/notification';
 @import './partials/mobile';
