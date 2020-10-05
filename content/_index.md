@@ -1,10 +1,11 @@
 ---
-title: '主页'
-description: 'DSRKafuU 个人站点主页'
+title: 'Index'
+description: 'Aofuji index.'
 keywords:
   - DSRKafuU
   - amzrk2
-  - 个人主页
+  - Aofuji
+  - index
 ---
 
 ## About me

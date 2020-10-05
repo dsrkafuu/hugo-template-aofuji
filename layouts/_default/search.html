@@ -14,16 +14,16 @@
               <form class="search-form" method="GET" target="_self">
                 <input class="input" type="search" name="q" autocapitalize="off" autocomplete="off"
                        autocorrect="off" spellcheck="false" v-model="searchInput" />
-                <button class="button" type="submit">搜索</button>
+                <button class="button" type="submit">Search</button>
               </form>
-              <v-search-info :status="status" :data="resultData.searchInformation"
-                             :query="searchQuerys" />
             </div>
-            <v-search-list :status="status" :items="resultData.items" />
           </div>
         </div>
         <div class="column list-sidebar is-one-quarter">
-          {{ partial "card-bundle-list.html" . }}
+          <div class="sticky">
+            {{ partial "card-info.html" . }}
+            {{ partial "card-links.html" . }}
+          </div>
         </div>
       </div>
     </div>
