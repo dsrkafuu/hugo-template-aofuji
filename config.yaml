@@ -21,6 +21,7 @@ params:
   para: "A clean Hugo theme"
   avatar: "/images/_kitashirakawa.webp"
   image: "/images/_header.webp"
+  og: "/images/_og.png"
   mainSections:
     - "post"
     - "code"
