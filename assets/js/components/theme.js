@@ -5,7 +5,7 @@ import { DOCUMENT_THEME, STORAGE_THEME } from '../plugins/constants';
 export default class ThemeManager {
   constructor() {
     this.theme = getLS(STORAGE_THEME) || document.body.getAttribute(DOCUMENT_THEME);
-    // 若 body 后的内联脚本执行失败了
+    // if inline scripts body failed
     if (this.theme !== document.body.getAttribute(DOCUMENT_THEME)) {
       document.body.setAttribute(DOCUMENT_THEME, this.theme);
     }
@@ -13,7 +13,7 @@ export default class ThemeManager {
 
   /**
    * @private
-   * 获取当前浏览器主题
+   * get current browser theme
    */
   getCSSScheme() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -21,12 +21,12 @@ export default class ThemeManager {
 
   /**
    * @private
-   * 获取当前实际主题
+   * get current actual theme
    */
   getSpecificTheme() {
     if (this.theme === 'auto') {
-      // 若当前为自动模式
-      // 则获取实际显示的主题
+      // if auto mode
+      // get the actual theme
       return this.getCSSScheme();
     } else {
       return this.theme === 'dark' ? 'dark' : 'light';
@@ -35,8 +35,8 @@ export default class ThemeManager {
 
   /**
    * @private
-   * 设置主题
-   * @param {string} scheme 将要设置的主题
+   * set the theme
+   * @param {string} scheme theme name
    */
   setTheme(scheme) {
     if (['auto', 'dark', 'light'].includes(scheme)) {
@@ -48,14 +48,14 @@ export default class ThemeManager {
 
   /**
    * @public
-   * 切换主题
+   * switch theme
    */
   switchTheme() {
     const nowTheme = this.getSpecificTheme();
     const targetTheme = nowTheme === 'light' ? 'dark' : 'light';
     if (targetTheme === this.getCSSScheme()) {
-      // 若目标主题为浏览器主题
-      // 则恢复自动模式
+      // if target theme is browser theme
+      // return to auto mode
       this.setTheme('auto');
       setLS(STORAGE_THEME, 'auto');
     } else {
