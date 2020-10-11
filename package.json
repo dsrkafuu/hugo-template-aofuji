@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amzrk2/amzrk2-ng"
+    "url": "https://github.com/amzrk2/hugo-template-aofuji"
   },
   "dependencies": {
     "bulma": "~0.9.1",
