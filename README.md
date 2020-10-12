@@ -6,6 +6,14 @@ Aofuji is a clean Hugo template for developers with useful basic features
 
 The template is not a fully featured Hugo theme, it is designed to provide a base theme design and architecture for developers to use in their projects.
 
+> Check out my other fully featured Hugo theme here: [hugo-theme-fuji](https://github.com/amzrk2/hugo-theme-fuji)
+
+## Live Demo and Preview
+
+![PREVIEW](/screenshot.jpg)
+
+Live demo: <https://amzrk2.github.io/hugo-template-aofuji/>
+
 ## Getting Started
 
 You need to configure [Node.js](https://nodejs.org/) (with npm) as well as [Hugo](https://gohugo.io/) before you can use the template, and Hugo requires the **extended version**.
