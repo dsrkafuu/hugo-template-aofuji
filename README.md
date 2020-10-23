@@ -47,6 +47,8 @@ The content of the wiki is still relatively incomplete and is being added over t
 
 ## LICENSE
 
+<img align="right" alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Famzrk2%2Fhugo-template-aofuji.svg?type=large" />
+
 The theme is released under the `Apache License 2.0`, for more information read the [LICENSE](https://github.com/amzrk2/hugo-template-aofuji/blob/master/LICENSE).
 
-> © 2018-present DSRKafuU <amzrk2.cc>
+**Copyright © 2018-present DSRKafuU <https://amzrk2.cc/>**
