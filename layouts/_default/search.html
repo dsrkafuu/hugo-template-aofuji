@@ -12,19 +12,19 @@
           <div id="app">
             <div class="card search-ctrl">
               <form class="search-form" method="GET" target="_self">
-                <input class="input" type="search" name="q" autocapitalize="off" autocomplete="off"
-                       autocorrect="off" spellcheck="false" v-model="searchInput" />
+                <input class="input" type="search" name="q" autocapitalize="off" autocorrect="off"
+                       autocomplete="off" spellcheck="false" required />
                 <button class="button" type="submit">Search</button>
               </form>
             </div>
           </div>
         </div>
-        <div class="column list-sidebar is-one-quarter">
+        <aside class="column list-sidebar is-one-quarter">
           <div class="sticky">
             {{ partial "card-info.html" . }}
             {{ partial "card-links.html" . }}
           </div>
-        </div>
+        </aside>
       </div>
     </div>
   </main>

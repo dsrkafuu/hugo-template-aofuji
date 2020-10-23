@@ -14,18 +14,18 @@
               <img class="lazyload" src="{{ .Site.Params.image | relURL }}" />
             </div>
             <div class="post-content">
-              <div class="markdown content">
+              <article class="markdown content">
                 {{ with .Site.GetPage "/_index.md" }}{{ .Content }}{{ end }}
-              </div>
+              </article>
             </div>
           </div>
         </div>
-        <div class="column main-sidebar is-one-quarter">
+        <aside class="column main-sidebar is-one-quarter">
           <div class="sticky">
             {{ partial "card-info.html" . }}
             {{ partial "card-links.html" . }}
           </div>
-        </div>
+        </aside>
       </div>
     </div>
   </main>

@@ -35,20 +35,20 @@
       <div class="columns main-columns">
         <div class="column main-content is-three-quarters">
           <div class="card">
-            <div class="markdown content">
+            <article class="markdown content">
               <h2>404 NOT FOUND</h2>
               <p><strong>Resource not found or under construction</strong></p>
               <p><span id="timer">10</span> seconds to <a href="{{ .Site.BaseURL }}"
                    target="_blank">home page</a></p>
-            </div>
+            </article>
           </div>
         </div>
-        <div class="column main-sidebar is-one-quarter">
+        <aside class="column main-sidebar is-one-quarter">
           <div class="sticky">
             {{ partial "card-info.html" . }}
             {{ partial "card-links.html" . }}
           </div>
-        </div>
+        </aside>
       </div>
     </div>
   </main>
