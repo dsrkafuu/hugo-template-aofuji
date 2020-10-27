@@ -12,7 +12,7 @@ The template is not a fully featured Hugo theme, it is designed to provide a bas
 
 ![PREVIEW](/screenshot.jpg)
 
-Live demo: <https://amzrk2.github.io/hugo-template-aofuji/>
+Live demo (GitHub Pages): <https://github.amzrk2.cc/hugo-template-aofuji/>
 
 ## Getting Started
 
