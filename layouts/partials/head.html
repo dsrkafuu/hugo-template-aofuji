@@ -1,5 +1,8 @@
 <!-- basic meta -->
 <meta charset="utf-8" />
+{{ if .Params.hide }}
+<meta name="robots" content="noindex, nofollow" />
+{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="HandheldFriendly" content="True" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -50,9 +53,9 @@
 <!-- google analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-000000000-0"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'UA-000000000-0');
+  //window.dataLayer = window.dataLayer || [];
+  //function gtag() { dataLayer.push(arguments); }
+  //gtag('js', new Date());
+  //gtag('config', 'UA-000000000-0');
 </script>
 {{- end -}}
