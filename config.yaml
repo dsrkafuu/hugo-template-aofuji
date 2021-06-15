@@ -1,5 +1,5 @@
 # base info
-baseURL: "https://amzrk2.github.io/hugo-template-aofuji/"
+baseURL: "https://github.dsrkafuu.su/hugo-template-aofuji/"
 title: "Aofuji"
 
 # features
@@ -43,10 +43,10 @@ menu:
       weight: 4
   links:
     - name: "#icon-github"
-      url: "https://github.com/amzrk2"
+      url: "https://github.com/dsrkafuu"
       weight: 1
     - name: "#icon-twitter"
-      url: "https://twitter.com/amzrk2"
+      url: "https://twitter.com/dsrkafuu"
       weight: 2
     - name: "#icon-tv-retro"
       url: "https://space.bilibili.com/19767474"
